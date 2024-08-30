@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farly</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="logo">
+            <h2>Farlyhaydy H.Djalil</h2>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#" onclick="scrollToTop()">Beranda</a>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content" id="tentang">
+            <div class="content-description"> 
+                <h1 class="title">Web Developer</h1>
+                <p>
+                    Perkenalkan nama saya Farlyhaydy H. Djalil, saya seorang Mahasiswa jurusan Teknologi Informasi 
+                    di Universitas Lambung Mangkurat, Fakultas Teknik.
+                </p>
+                <button id="download-cv" >Download CV</button>
+            </div>
+            <div class="content-image">
+                <img src="img/profile.png" alt="profile"/>
+            </div>
+        </div>
+        <aside>
+            <div class="social-media">
+                <ul>
+                    <li><a href="www.youtube.com/@farlyhaydyh.djalil6490"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://discordapp.com/users/930794916878123069"><i class="fab fa-discord"></i></a></li>
+                    <li><a href="https://www.instagram.com/frlyhay__/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <section id="kontak">
+        <h2>Kontak Saya</h2>
+        <p>Jika Anda ingin menghubungi saya, silakan isi formulir di bawah ini:</p>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Farlyhaydy H. Djalil. All rights reserved.</p>
+    </footer>
+</body>
+</html>
